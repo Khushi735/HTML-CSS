@@ -1,3 +1,4 @@
+
 p {
   margin-top: 0;
   margin-bottom: 0;
@@ -12,3 +13,25 @@ body {
   padding-right: 24px;
   background-color: rgb(248, 248, 248);
 }
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+body.dark-mode .sidebar {
+  background-color: #4d4c4c;
+}
+
+body.dark-mode .sidebar-link:hover {
+  background-color: #ffffff;
+  color:black;
+}
+
+body.dark-mode .header {
+  background-color: #4d4c4c;
+}
+
+/* Add any other necessary dark mode styles here */
+
